@@ -56,7 +56,7 @@ export class AppComponent implements OnInit {
       dataSource: this.data,
       language: 'de',
       clickDay(e) {
-        console.log('ClickDay ' + JSON.stringify(e));
+        console.log('ClickDay');
       },
       mouseOnDay(e) {
         if (e.events.length > 0) {
@@ -64,7 +64,7 @@ export class AppComponent implements OnInit {
           // tslint:disable-next-line:forin
           for (const i in e.events) {
             mycontent += '<div class="event-tooltip-content">'
-              + '<div class="event-name">' + e.events[i].Name + '</div>'
+              + '<div class="event-name">' + e.events[i].name + '</div>'
               + '</div>';
           }
 
