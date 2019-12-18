@@ -1,4 +1,4 @@
-# YearcalendarDemo
+# YearcCalendarDemo
 
 This project is a simple Example for [js-year-calendar](https://github.com/year-calendar/js-year-calendar) with Angular8
 
